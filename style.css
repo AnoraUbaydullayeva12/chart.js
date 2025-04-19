@@ -1,0 +1,27 @@
+/* Overall page background */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cde0ff;
+  margin: 0;
+  padding: 0;
+  padding: 40px;
+}
+
+/* Grid layout for charts */
+.cover {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  gap: 20rem;
+}
+
+/* Individual chart containers (white cards) */
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  width: 1400px;
+  height: 1000px;
+}
